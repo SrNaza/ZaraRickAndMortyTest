@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		672FA5B92CC1C5ED00D42DB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 672FA59A2CC1C5EB00D42DB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 672FA5A12CC1C5EB00D42DB1;
+			remoteInfo = "ZaraRick&Morty";
+		};
+		672FA5C32CC1C5ED00D42DB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 672FA59A2CC1C5EB00D42DB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 672FA5A12CC1C5EB00D42DB1;
+			remoteInfo = "ZaraRick&Morty";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		672FA5A22CC1C5EB00D42DB1 /* ZaraRick&Morty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZaraRick&Morty.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		672FA5B82CC1C5ED00D42DB1 /* ZaraRick&MortyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZaraRick&MortyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		672FA5C22CC1C5ED00D42DB1 /* ZaraRick&MortyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZaraRick&MortyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		672FA5CA2CC1C5ED00D42DB1 /* Exceptions for "ZaraRick&Morty" folder in "ZaraRick&Morty" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 672FA5A12CC1C5EB00D42DB1 /* ZaraRick&Morty */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		672FA5A42CC1C5EB00D42DB1 /* ZaraRick&Morty */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				672FA5CA2CC1C5ED00D42DB1 /* Exceptions for "ZaraRick&Morty" folder in "ZaraRick&Morty" target */,
+			);
+			path = "ZaraRick&Morty";
+			sourceTree = "<group>";
+		};
+		672FA5BB2CC1C5ED00D42DB1 /* ZaraRick&MortyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ZaraRick&MortyTests";
+			sourceTree = "<group>";
+		};
+		672FA5C52CC1C5ED00D42DB1 /* ZaraRick&MortyUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ZaraRick&MortyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		672FA59F2CC1C5EB00D42DB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		672FA5B52CC1C5ED00D42DB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		672FA5BF2CC1C5ED00D42DB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		672FA5992CC1C5EB00D42DB1 = {
+			isa = PBXGroup;
+			children = (
+				672FA5A42CC1C5EB00D42DB1 /* ZaraRick&Morty */,
+				672FA5BB2CC1C5ED00D42DB1 /* ZaraRick&MortyTests */,
+				672FA5C52CC1C5ED00D42DB1 /* ZaraRick&MortyUITests */,
+				672FA5A32CC1C5EB00D42DB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		672FA5A32CC1C5EB00D42DB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				672FA5A22CC1C5EB00D42DB1 /* ZaraRick&Morty.app */,
+				672FA5B82CC1C5ED00D42DB1 /* ZaraRick&MortyTests.xctest */,
+				672FA5C22CC1C5ED00D42DB1 /* ZaraRick&MortyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		672FA5A12CC1C5EB00D42DB1 /* ZaraRick&Morty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 672FA5CB2CC1C5ED00D42DB1 /* Build configuration list for PBXNativeTarget "ZaraRick&Morty" */;
+			buildPhases = (
+				672FA59E2CC1C5EB00D42DB1 /* Sources */,
+				672FA59F2CC1C5EB00D42DB1 /* Frameworks */,
+				672FA5A02CC1C5EB00D42DB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				672FA5A42CC1C5EB00D42DB1 /* ZaraRick&Morty */,
+			);
+			name = "ZaraRick&Morty";
+			packageProductDependencies = (
+			);
+			productName = "ZaraRick&Morty";
+			productReference = 672FA5A22CC1C5EB00D42DB1 /* ZaraRick&Morty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		672FA5B72CC1C5ED00D42DB1 /* ZaraRick&MortyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 672FA5D02CC1C5ED00D42DB1 /* Build configuration list for PBXNativeTarget "ZaraRick&MortyTests" */;
+			buildPhases = (
+				672FA5B42CC1C5ED00D42DB1 /* Sources */,
+				672FA5B52CC1C5ED00D42DB1 /* Frameworks */,
+				672FA5B62CC1C5ED00D42DB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				672FA5BA2CC1C5ED00D42DB1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				672FA5BB2CC1C5ED00D42DB1 /* ZaraRick&MortyTests */,
+			);
+			name = "ZaraRick&MortyTests";
+			packageProductDependencies = (
+			);
+			productName = "ZaraRick&MortyTests";
+			productReference = 672FA5B82CC1C5ED00D42DB1 /* ZaraRick&MortyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		672FA5C12CC1C5ED00D42DB1 /* ZaraRick&MortyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 672FA5D32CC1C5ED00D42DB1 /* Build configuration list for PBXNativeTarget "ZaraRick&MortyUITests" */;
+			buildPhases = (
+				672FA5BE2CC1C5ED00D42DB1 /* Sources */,
+				672FA5BF2CC1C5ED00D42DB1 /* Frameworks */,
+				672FA5C02CC1C5ED00D42DB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				672FA5C42CC1C5ED00D42DB1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				672FA5C52CC1C5ED00D42DB1 /* ZaraRick&MortyUITests */,
+			);
+			name = "ZaraRick&MortyUITests";
+			packageProductDependencies = (
+			);
+			productName = "ZaraRick&MortyUITests";
+			productReference = 672FA5C22CC1C5ED00D42DB1 /* ZaraRick&MortyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		672FA59A2CC1C5EB00D42DB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					672FA5A12CC1C5EB00D42DB1 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					672FA5B72CC1C5ED00D42DB1 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 672FA5A12CC1C5EB00D42DB1;
+					};
+					672FA5C12CC1C5ED00D42DB1 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 672FA5A12CC1C5EB00D42DB1;
+					};
+				};
+			};
+			buildConfigurationList = 672FA59D2CC1C5EB00D42DB1 /* Build configuration list for PBXProject "ZaraRick&Morty" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 672FA5992CC1C5EB00D42DB1;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 672FA5A32CC1C5EB00D42DB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				672FA5A12CC1C5EB00D42DB1 /* ZaraRick&Morty */,
+				672FA5B72CC1C5ED00D42DB1 /* ZaraRick&MortyTests */,
+				672FA5C12CC1C5ED00D42DB1 /* ZaraRick&MortyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		672FA5A02CC1C5EB00D42DB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		672FA5B62CC1C5ED00D42DB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		672FA5C02CC1C5ED00D42DB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		672FA59E2CC1C5EB00D42DB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		672FA5B42CC1C5ED00D42DB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		672FA5BE2CC1C5ED00D42DB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		672FA5BA2CC1C5ED00D42DB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 672FA5A12CC1C5EB00D42DB1 /* ZaraRick&Morty */;
+			targetProxy = 672FA5B92CC1C5ED00D42DB1 /* PBXContainerItemProxy */;
+		};
+		672FA5C42CC1C5ED00D42DB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 672FA5A12CC1C5EB00D42DB1 /* ZaraRick&Morty */;
+			targetProxy = 672FA5C32CC1C5ED00D42DB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		672FA5CC2CC1C5ED00D42DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G25RCZ4D7B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ZaraRick&Morty/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "testingnaza.ZaraRick-Morty";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		672FA5CD2CC1C5ED00D42DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G25RCZ4D7B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ZaraRick&Morty/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "testingnaza.ZaraRick-Morty";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		672FA5CE2CC1C5ED00D42DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		672FA5CF2CC1C5ED00D42DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		672FA5D12CC1C5ED00D42DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G25RCZ4D7B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "testingnaza.ZaraRick-MortyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZaraRick&Morty.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZaraRick&Morty";
+			};
+			name = Debug;
+		};
+		672FA5D22CC1C5ED00D42DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G25RCZ4D7B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "testingnaza.ZaraRick-MortyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZaraRick&Morty.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZaraRick&Morty";
+			};
+			name = Release;
+		};
+		672FA5D42CC1C5ED00D42DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G25RCZ4D7B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "testingnaza.ZaraRick-MortyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ZaraRick&Morty";
+			};
+			name = Debug;
+		};
+		672FA5D52CC1C5ED00D42DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G25RCZ4D7B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "testingnaza.ZaraRick-MortyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ZaraRick&Morty";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		672FA59D2CC1C5EB00D42DB1 /* Build configuration list for PBXProject "ZaraRick&Morty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				672FA5CE2CC1C5ED00D42DB1 /* Debug */,
+				672FA5CF2CC1C5ED00D42DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		672FA5CB2CC1C5ED00D42DB1 /* Build configuration list for PBXNativeTarget "ZaraRick&Morty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				672FA5CC2CC1C5ED00D42DB1 /* Debug */,
+				672FA5CD2CC1C5ED00D42DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		672FA5D02CC1C5ED00D42DB1 /* Build configuration list for PBXNativeTarget "ZaraRick&MortyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				672FA5D12CC1C5ED00D42DB1 /* Debug */,
+				672FA5D22CC1C5ED00D42DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		672FA5D32CC1C5ED00D42DB1 /* Build configuration list for PBXNativeTarget "ZaraRick&MortyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				672FA5D42CC1C5ED00D42DB1 /* Debug */,
+				672FA5D52CC1C5ED00D42DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 672FA59A2CC1C5EB00D42DB1 /* Project object */;
+}
