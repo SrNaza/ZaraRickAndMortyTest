@@ -6,6 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		672FA5F62CC1C6B700D42DB1 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 672FA5F52CC1C6B700D42DB1 /* RxSwift */; };
+		672FA5F82CC1C6BE00D42DB1 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 672FA5F72CC1C6BE00D42DB1 /* RxCocoa */; };
+		672FA5FA2CC1C6C600D42DB1 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 672FA5F92CC1C6C600D42DB1 /* Alamofire */; };
+		672FA5FC2CC1C6D700D42DB1 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 672FA5FB2CC1C6D700D42DB1 /* SDWebImage */; };
+		672FA66B2CC3BE4200D42DB1 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 672FA66A2CC3BE4200D42DB1 /* SDWebImageSwiftUI */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		672FA5B92CC1C5ED00D42DB1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,6 +73,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				672FA66B2CC3BE4200D42DB1 /* SDWebImageSwiftUI in Frameworks */,
+				672FA5FA2CC1C6C600D42DB1 /* Alamofire in Frameworks */,
+				672FA5F82CC1C6BE00D42DB1 /* RxCocoa in Frameworks */,
+				672FA5FC2CC1C6D700D42DB1 /* SDWebImage in Frameworks */,
+				672FA5F62CC1C6B700D42DB1 /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +104,7 @@
 				672FA5A42CC1C5EB00D42DB1 /* ZaraRick&Morty */,
 				672FA5BB2CC1C5ED00D42DB1 /* ZaraRick&MortyTests */,
 				672FA5C52CC1C5ED00D42DB1 /* ZaraRick&MortyUITests */,
+				672FA5F42CC1C6B700D42DB1 /* Frameworks */,
 				672FA5A32CC1C5EB00D42DB1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +117,13 @@
 				672FA5C22CC1C5ED00D42DB1 /* ZaraRick&MortyUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		672FA5F42CC1C6B700D42DB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +146,11 @@
 			);
 			name = "ZaraRick&Morty";
 			packageProductDependencies = (
+				672FA5F52CC1C6B700D42DB1 /* RxSwift */,
+				672FA5F72CC1C6BE00D42DB1 /* RxCocoa */,
+				672FA5F92CC1C6C600D42DB1 /* Alamofire */,
+				672FA5FB2CC1C6D700D42DB1 /* SDWebImage */,
+				672FA66A2CC3BE4200D42DB1 /* SDWebImageSwiftUI */,
 			);
 			productName = "ZaraRick&Morty";
 			productReference = 672FA5A22CC1C5EB00D42DB1 /* ZaraRick&Morty.app */;
@@ -208,6 +234,13 @@
 			);
 			mainGroup = 672FA5992CC1C5EB00D42DB1;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				672FA5F02CC1C68500D42DB1 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				672FA5F12CC1C69300D42DB1 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				672FA5F22CC1C69D00D42DB1 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				672FA5F32CC1C6A600D42DB1 /* XCRemoteSwiftPackageReference "IGListKit" */,
+				672FA6692CC3BE3000D42DB1 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 672FA5A32CC1C5EB00D42DB1 /* Products */;
 			projectDirPath = "";
@@ -376,6 +409,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				EXCLUDED_SOURCE_FILE_NAMES = "";
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -439,6 +473,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				EXCLUDED_SOURCE_FILE_NAMES = "";
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -569,6 +604,77 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		672FA5F02CC1C68500D42DB1 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.8.0;
+			};
+		};
+		672FA5F12CC1C69300D42DB1 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.0;
+			};
+		};
+		672FA5F22CC1C69D00D42DB1 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.19.7;
+			};
+		};
+		672FA5F32CC1C6A600D42DB1 /* XCRemoteSwiftPackageReference "IGListKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Instagram/IGListKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		672FA6692CC3BE3000D42DB1 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		672FA5F52CC1C6B700D42DB1 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 672FA5F02CC1C68500D42DB1 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		672FA5F72CC1C6BE00D42DB1 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 672FA5F02CC1C68500D42DB1 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		672FA5F92CC1C6C600D42DB1 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 672FA5F12CC1C69300D42DB1 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		672FA5FB2CC1C6D700D42DB1 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 672FA5F22CC1C69D00D42DB1 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		672FA66A2CC3BE4200D42DB1 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 672FA6692CC3BE3000D42DB1 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 672FA59A2CC1C5EB00D42DB1 /* Project object */;
 }
