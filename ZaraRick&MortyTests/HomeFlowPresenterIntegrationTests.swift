@@ -31,14 +31,12 @@ class HomeFlowPresenterIntegrationTests: XCTestCase {
     }
 
     func testFetchAllCharactersSuccess() {
-        // Given
         apiServiceMock.shouldReturnError = false
 
-        // When
         let expectation = self.expectation(description: "Success fetch characters")
         presenter.getAllCharacterInfo()
             .subscribe(onNext: { characterSearch in
-                // Then
+                
                 XCTAssertEqual(characterSearch.results.count, 1)
                 XCTAssertEqual(characterSearch.results.first?.name, "Rick Sanchez")
                 expectation.fulfill()
@@ -50,16 +48,14 @@ class HomeFlowPresenterIntegrationTests: XCTestCase {
     }
 
     func testFetchAllCharactersFailure() {
-        // Given
         apiServiceMock.shouldReturnError = true
 
-        // When
         let expectation = self.expectation(description: "Error fetching characters")
         presenter.getAllCharacterInfo()
             .subscribe(onNext: { _ in
+                
                 XCTFail("Expected error but got success")
             }, onError: { error in
-                // Then
                 XCTAssertEqual(error.localizedDescription, "Mock error")
                 expectation.fulfill()
             }).disposed(by: disposeBag)
@@ -84,5 +80,4 @@ class HomeFlowPresenterIntegrationTests: XCTestCase {
         
         waitForExpectations(timeout: 2, handler: nil)
     }
-
 }

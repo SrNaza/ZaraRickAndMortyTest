@@ -58,7 +58,6 @@ class HomeFlowInteractorTests: XCTestCase {
     }
     
     func testFetchCharacterSuccess() {
-        // Simulación de llamada exitosa
         apiServiceMock.shouldReturnError = false
         
         interactor.getCharacter(characterToSearch: "Rick", page: 1)
@@ -72,7 +71,6 @@ class HomeFlowInteractorTests: XCTestCase {
     }
     
     func testFetchCharacterError() {
-        // Simulación de error en la llamada
         apiServiceMock.shouldReturnError = true
         
         interactor.getCharacter(characterToSearch: "Rick", page: 1)
